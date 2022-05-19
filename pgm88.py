@@ -1,9 +1,10 @@
-# read the string and count the nno of vowels and consonents
+# read the string and count the no of vowels and consonents
 x=input('x=?')
 n=len(x)
 i=0
 v=0
 c=0
+print("count the no of vowels and consonents in a string")
 while i<=n-1:
     print(x[i])
     if x[i]=='a'or x[i]=='e'or x[i]=='i' or x[i]=='o' or x[i]=='u':

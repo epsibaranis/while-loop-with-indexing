@@ -3,6 +3,7 @@ s1=input('s1=?')
 s2=''
 l=len(s1)
 i=0
+print("convert the uppercase to lowercase in string")
 while i<l:
     d=ord(s1[i])
     if d>=65 and d<=90:

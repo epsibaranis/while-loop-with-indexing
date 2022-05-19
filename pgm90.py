@@ -6,7 +6,7 @@ l=0
 f=0
 s=0
 n=len(x)
-
+print("count the uppercase lower case digit and special character in a string")
 while i<n-1:
     print(x[i])
     d=ord(x[i])
